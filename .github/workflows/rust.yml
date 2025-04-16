@@ -179,6 +179,9 @@ jobs:
       - run: cargo check --features wgpu,android-native-activity --target aarch64-linux-android
         working-directory: crates/eframe
 
+      - run: cargo check --features wgpu,android-native-activity --target aarch64-linux-android
+        working-directory: exaples/hello_android
+
   # ---------------------------------------------------------------------------
 
   ios:
